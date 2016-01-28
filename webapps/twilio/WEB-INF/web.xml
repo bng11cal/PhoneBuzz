@@ -15,35 +15,15 @@
         <servlet-name>TwilioHandleKeyServlet</servlet-name>
         <servlet-class>com.twilio.TwilioHandleKeyServlet</servlet-class>
     </servlet>
-    
-    <servlet>
-        <servlet-name>App</servlet-name>
-        <servlet-class>com.twilio.App</servlet-class>
-    </servlet>
-    
-    <servlet>
-        <servlet-name>Call</servlet-name>
-        <servlet-class>com.twilio.Call</servlet-class>
-    </servlet>
-    
-    <servlet>
-        <servlet-name>Connect</servlet-name>
-        <servlet-class>com.twilio.Connect</servlet-class>
-    </servlet>
  
     <servlet-mapping>
         <servlet-name>TwilioServlet</servlet-name>
-        <url-pattern>/twiml</url-pattern>
+        <url-pattern>/phonebuzz</url-pattern>
     </servlet-mapping>
  
     <servlet-mapping>
         <servlet-name>TwilioHandleKeyServlet</servlet-name>
         <url-pattern>/handle-key</url-pattern>
-    </servlet-mapping>
-
-    <servlet-mapping>
-        <servlet-name>App</servlet-name>
-        <url-pattern>app</url-pattern>
     </servlet-mapping>
 </web-app>
 

@@ -9,7 +9,7 @@ Coding challenge
    ```
 1. Expose application via ngrok
    ```bash
-   $ ngrok 8080
+   $ ngrok http 8080
    ```
 
 1. Use the following link as the request URL for your twilio number.

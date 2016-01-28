@@ -3,7 +3,8 @@ Coding challenge
 
 ### To Run the Application:
 1. Start server by running:
-   ```bash
+
+   ```
    $ sh bin/startup.sh.
    ```
 1. Expose application via ngrok

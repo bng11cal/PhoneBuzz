@@ -5,7 +5,7 @@ Coding challenge
 1. Start server by running:
 
    ```
-   $ sh bin/startup.sh.
+   $ sh bin/startup.sh
    ```
 1. Expose application via ngrok
    ```bash

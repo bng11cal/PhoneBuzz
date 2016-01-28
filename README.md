@@ -1,4 +1,4 @@
-# PhoneBuzz
+# PhoneBuzz Phase 1
 Coding challenge
 
 ### To Run the Application:
